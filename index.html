@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Sauces</title>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Анкета для оценки соевого соуса "Умами"</h1>
+            <h3>Попробуйте местный продукт!</h3>
+            <p>Этот соус создан в Кыргызыстане с использованием натуральных ингредиентов и заботой о качестве. Мы стремимся сделать его идеальным для вас! Пожалуйста, ответьте на несколько вопросов о нашем соевом соусе. Это займет не больше 2 минут.</p>
+        </header>
+        <article>
+            <section>
+                <form>
+                    <ul>
+                        <li class="taste">
+                            <p>Как вам вкус соевого соуса?</p>
+                            <hr />
+                            <input type="radio" required name="vkus" />Очень понравился <br />
+                            <input type="radio" required name="vkus" />Понравился <br />
+                            <input type="radio" required name="vkus" />Нейтрально <br />
+                            <input type="radio" required name="vkus" />Не понравился <br />
+                            <input type="radio" required name="vkus" />Совсем не понравился <br />
+                        </li>
+                        <li class="saturation">
+                            <p>Как вы оцениваете насыщенность вкуса?</p>
+                            <hr />
+                            <input type="radio" required name="nasyshennost" />Очень насыщенный <br />
+                            <input type="radio" required name="nasyshennost" />Достаточно насыщенный <br />
+                            <input type="radio" required name="nasyshennost" />Средний <br />
+                            <input type="radio" required name="nasyshennost" />Слабый <br />
+                            <input type="radio" required name="nasyshennost" />Очень слабый <br />
+                        </li>
+                        <li class="difference">
+                            <p>Чем этот соус отличается от тех, которые вы пробовали раньше?</p>
+                            <p>(Напишите ваш ответ ниже)</p>
+                            <textarea type="text" required name="otlichaetsy" rows="10"></textarea><br />
+                        </li>
+                        <li class="japan">
+                            <p>Подходит ли этот соус к блюдам японской кухни?</p>
+                            <hr />
+                            <input type="radio" required name="japon" />Да, идеально <br />
+                            <input type="radio" required name="japon" />Вполне подходит <br />
+                            <input type="radio" required name="japon" />Подходит, но есть замечания <br />
+                            <input type="radio" required name="japon" />Не подходит <br />
+                        </li>
+                        <li class="buy">
+                            <p>Купили бы вы этот соус для домашнего использования?
+                            <hr />
+                            </p>
+                            <input type="radio" required name="kupit" />Да <br />
+                            <input type="radio" required name="kupit" />Возможно <br />
+                            <input type="radio" required name="kupit" />Нет <br />
+                        </li>
+                        <li class="grade">
+                            <p>Общая оценка соуса по шкале от 1 до 5 (1 - совсем не понравился, 5 - превосходный соус)</p>
+                            <hr />
+                            1 <input type="radio" required name="osenka" /> <br />
+                            2 <input type="radio" required name="osenka" /> <br />
+                            3 <input type="radio" required name="osenka" /> <br />
+                            4 <input type="radio" required name="osenka" /> <br />
+                            5 <input type="radio" required name="osenka" /> <br />
+                        </li>
+                        <li class="improvement">
+                            <p>Есть ли что-то, что вы хотели бы улучшить в этом соусе?</p>
+                            <p>(Напишите ваш ответ ниже)</p>
+                            <textarea type="text" required name="uluchshit" rows="10"></textarea><br />
+                        </li>
+                        <li class="contact">    
+                            <p>Ваши контактные данные (по желанию)</p>
+                            <p>(Если хотите участвовать в розыгрыше подарков или пробовать новые продукты)</p>
+                            <hr />
+                            Имя:<br /><input type="text" required name="kontakt" /> <br />
+                            Телефон:<br /><input type="tel" required name="kontakt" /> <br />
+                            Email:<br /><input type="email" required name="kontakt" /> <br />
+                        </li>
+                    </ul>   
+                    <button type="submit">Отправить</button>  
+                    <button type="button">Заказать</button>   
+                </form>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
