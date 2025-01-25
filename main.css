@@ -23,6 +23,11 @@ header, article {
 article {
     border-radius: 10px;
 }
+.whatsapp {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
 ul li {
     margin: 5%;
 }
