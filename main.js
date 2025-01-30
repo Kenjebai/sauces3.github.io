@@ -15,7 +15,7 @@ button.addEventListener('click', async () => {
 })
 
 function sendwhatsapp(){
-    let phonenumber = "+996706831799";
+    let phonenumber = "+996702944777";
     let name = document.querySelector('.name').value;
     let phone = document.querySelector('.phone').value;
     let email = document.querySelector('.email').value;
