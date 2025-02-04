@@ -18,55 +18,77 @@
                 <a aria-label="Chat on WhatsApp" href="https://wa.me/996702944777"><img src="./images/whatsapp.jpg" alt="Chat on WhatsApp" /></a>
             </section>
             <section>
-                <form>
+                <form class="myForm">
                     <ul>
                         <li class="taste">
                             <p>Как вам вкус соевого соуса?</p>
                             <hr />
-                            <input type="radio" name="vkus" />Очень понравился <br />
-                            <input type="radio" name="vkus" />Понравился <br />
-                            <input type="radio" name="vkus" />Нейтрально <br />
-                            <input type="radio" name="vkus" />Не понравился <br />
-                            <input type="radio" name="vkus" />Совсем не понравился <br />
+                            <input type="radio" name="vkus" class="vals" value="Очень понравился" id="a1" />
+                            <label for="a1">Очень понравился </label><br />
+                            <input type="radio" name="vkus" class="vals" value="Понравился" id="a2" />
+                            <label for="a2">Понравился </label><br />
+                            <input type="radio" name="vkus" class="vals" value="Нейтрально" id="a3" />
+                            <label for="a3">Нейтрально</label> <br />
+                            <input type="radio" name="vkus" class="vals" value="Не понравился" id="a4" />
+                            <label for="a4">Не понравился</label> <br />
+                            <input type="radio" name="vkus" class="vals" value="Совсем не понравился" id="a5" />
+                            <label for="a5">Совсем не понравился</label> <br />
                         </li>
                         <li class="saturation">
                             <p>Как вы оцениваете насыщенность вкуса?</p>
                             <hr />
-                            <input type="radio" name="nasyshennost" />Очень насыщенный <br />
-                            <input type="radio" name="nasyshennost" />Достаточно насыщенный <br />
-                            <input type="radio" name="nasyshennost" />Средний <br />
-                            <input type="radio" name="nasyshennost" />Слабый <br />
-                            <input type="radio" name="nasyshennost" />Очень слабый <br />
+                            <input type="radio" name="nasyshennost" class="nasyshennost" value="Очень насыщенный" id="b1" />
+                            <label for="b1">Очень насыщенный</label> <br />
+                            <input type="radio" name="nasyshennost" class="nasyshennost" value="Достаточно насыщенный" id="b2" />
+                            <label for="b2">Достаточно насыщенный</label> <br />
+                            <input type="radio" name="nasyshennost" class="nasyshennost" value="Средний" id="b3" />
+                            <label for="b3">Средний</label> <br />
+                            <input type="radio" name="nasyshennost" class="nasyshennost" value="Слабый" id="b4" />
+                            <label for="b4">Слабый</label> <br />
+                            <input type="radio" name="nasyshennost" class="nasyshennost" value="Очень слабый" id="b5" />
+                            <label for="b5">Очень слабый</label> <br />
                         </li>
                         <li class="difference">
                             <p>Чем этот соус отличается от тех, которые вы пробовали раньше?</p>
                             <p>(Напишите ваш ответ ниже)</p>
-                            <textarea type="text" name="otlichaetsy" rows="10"></textarea><br />
+                            <textarea type="text" name="otlichaetsy" class="message2" rows="10"></textarea><br />
                         </li>
                         <li class="japan">
                             <p>Подходит ли этот соус к блюдам японской кухни?</p>
                             <hr />
-                            <input type="radio" name="japon" />Да, идеально <br />
-                            <input type="radio" name="japon" />Вполне подходит <br />
-                            <input type="radio" name="japon" />Подходит, но есть замечания <br />
-                            <input type="radio" name="japon" />Не подходит <br />
+                            <input type="radio" name="japon" class="japon" value="Да, идеально" id="v1" />
+                            <label for="v1">Да, идеально</label> <br />
+                            <input type="radio" name="japon" class="japon" value="Вполне подходит" id="v2" />
+                            <label for="v2">Вполне подходит </label><br />
+                            <input type="radio" name="japon" class="japon" value="Подходит, но есть замечания" id="v3" />
+                            <label for="v3">Подходит, но есть замечания</label> <br />
+                            <input type="radio" name="japon" class="japon" value="Не подходит" id="v4" />
+                            <label for="v4">Не подходит</label> <br />
                         </li>
                         <li class="buy">
                             <p>Купили бы вы этот соус для домашнего использования?
                             <hr />
                             </p>
-                            <input type="radio" name="kupit" />Да <br />
-                            <input type="radio" name="kupit" />Возможно <br />
-                            <input type="radio" name="kupit" />Нет <br />
+                            <input type="radio" class="cc" name="kupit" value="Да" id="g1" />
+                            <label for="g1">Да</label> <br />
+                            <input type="radio" class="cc" name="kupit" value="Возможно" id="g2" />
+                            <label for="g2">Возможно</label> <br />
+                            <input type="radio" class="cc" name="kupit" value="Нет" id="g3" />
+                            <label for="g3">Нет</label> <br />
                         </li>
-                        <li class="grade">
+                        <li class="grades">
                             <p>Общая оценка соуса по шкале от 1 до 5 (1 - совсем не понравился, 5 - превосходный соус)</p>
                             <hr />
-                            1 <input type="radio" name="osenka" /> <br />
-                            2 <input type="radio" name="osenka" /> <br />
-                            3 <input type="radio" name="osenka" /> <br />
-                            4 <input type="radio" name="osenka" /> <br />
-                            5 <input type="radio" name="osenka" /> <br />
+                            <label for="d1">1</label>
+                            <input type="radio" name="grade" class="grade" value="1" id="d1" /> <br />
+                            <label for="d2">2</label>
+                            <input type="radio" name="grade" class="grade" value="2" id="d2" /> <br />
+                            <label for="d3">3</label>
+                            <input type="radio" name="grade" class="grade" value="3" id="d3" /> <br />
+                            <label for="d4">4</label>
+                            <input type="radio" name="grade" class="grade" value="4" id="d4" /> <br />
+                            <label for="d5">5</label>
+                            <input type="radio" name="grade" class="grade" value="5" id="d5" /> <br />
                         </li>
                         <li class="improvement">
                             <p>Есть ли что-то, что вы хотели бы улучшить в этом соусе?</p>
@@ -77,18 +99,20 @@
                             <p>Ваши контактные данные (по желанию)</p>
                             <p>(Если хотите участвовать в розыгрыше подарков или пробовать новые продукты)</p>
                             <hr />
-                            Имя:<br /><input type="text" name="name" class="name" /> <br />
-                            Телефон:<br /><input type="tel" name="phone" class="phone" /> <br />
-                            Email:<br /><input type="email" name="email" class="email" /> <br />
-                            <input type="hidden" name="recipient" value="996502860631" />
+                            <label for="e1">Имя:</label><br />
+                            <input type="text" name="name" class="name" id="e1" /> <br />
+                            <label for="e2">Телефон:</label><br />
+                            <input type="tel" name="phone" class="phone" id="e2" /> <br />
+                            <label for="e3">Email:</label><br />
+                            <input type="email" name="email" class="email" id="e3" /> <br />
                         </li>
                     </ul>   
                     <button type="button" class="button" onclick="sendwhatsapp()">Отправить</button>  
-                    <button type="button" id="button">Заказать</button>   
+                    <button type="button" id="button" class="button"><a href="https://wa.me/996702944777">Заказать</a></button>   
                 </form>
             </section>
         </article>
     </main>
     <script src="main.js"></script>
 </body>
-</html>
+</html>                        <span id="result"></span>
