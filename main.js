@@ -1,5 +1,5 @@
 function sendwhatsapp(){
-  let phonenumber = "+996706831799";
+  let phonenumber = "+996702944777";
 
   var name1;
   var data1;
